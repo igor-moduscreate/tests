@@ -1,0 +1,5 @@
+(wrap-link "https://deepsymmetry.org"
+  (draw-box (text "length" [:math] [:sub 1]) {:span 4}))
+(wrap-link "https://clojure.org" {:target "_blank"}
+  (draw-gap "Clojure byte code")
+  (draw-bottom))
