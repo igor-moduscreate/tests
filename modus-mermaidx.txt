@@ -1,0 +1,6 @@
+%%{init: {'theme': 'default', 'pie' : {'labelFontFamily' : '"Open Sans", sans-serif', 'labelFontSize': '14', 'labelColor':'#ffffff', 'labelPosition':'50', 'strokeWidth': '0'}}%%
+
+pie title What Voldemort doesn't have?
+    "FRIENDS" : 2
+    "FAMILY" : 3
+    "NOSE" : 45
