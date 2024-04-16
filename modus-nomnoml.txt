@@ -5,9 +5,9 @@
 #stroke: #4682b4
 #strokeWidth: 2
 
-[Central Tower Complex] - [Sky Bridges]
-[Sky Bridges] - [Transportation Hub]
-[Urban Plaza] - [Entertainment District]
-[Entertainment District] - [Residential District]
-[Residential District] - [Green Spaces]
-[Research & Development Facilities] - [Advanced Infrastructure]
+CentralTowerComplex - SkyBridges
+SkyBridges - TransportationHub
+UrbanPlaza - EntertainmentDistrict
+EntertainmentDistrict - ResidentialDistrict
+ResidentialDistrict - GreenSpaces
+ResearchAndDevelopmentFacilities - AdvancedInfrastructure
