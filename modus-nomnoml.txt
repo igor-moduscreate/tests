@@ -1,13 +1,11 @@
 #fill: #f0f8ff; # Background color
-#arrowSize: 1
-#arrowColor: #4682b4
 #fontSize: 16
 #stroke: #4682b4
 #strokeWidth: 2
 
-CentralTowerComplex - SkyBridges
-SkyBridges - TransportationHub
-UrbanPlaza - EntertainmentDistrict
-EntertainmentDistrict - ResidentialDistrict
-ResidentialDistrict - GreenSpaces
-ResearchAndDevelopmentFacilities - AdvancedInfrastructure
+[CentralTowerComplex] - [SkyBridges]
+[SkyBridges] - [TransportationHub]
+[UrbanPlaza] - [EntertainmentDistrict]
+[EntertainmentDistrict] - [ResidentialDistrict]
+[ResidentialDistrict] - [GreenSpaces]
+[ResearchAndDevelopmentFacilities] - [AdvancedInfrastructure]
