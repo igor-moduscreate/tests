@@ -1,0 +1,11 @@
+#fill: #f0f8ff; # Background color
+#fontSize: 16
+#stroke: #4682b4
+#strokeWidth: 2
+
+[CentralTowerComplex] - [SkyBridges]
+[SkyBridges] - [TransportationHub]
+[UrbanPlaza] - [EntertainmentDistrict]
+[EntertainmentDistrict] - [ResidentialDistrict]
+[ResidentialDistrict] - [GreenSpaces]
+[ResearchAndDevelopmentFacilities] - [AdvancedInfrastructure]
