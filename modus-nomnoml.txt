@@ -1,11 +1,13 @@
-```nomnoml
-#stroke: #a86128
-  [<frame>Decorator pattern|
-    [<abstract>Component||+ operation()]
-    [Client] depends --> [Component]
-    [Decorator|- next: Component]
-    [Decorator] decorates -- [ConcreteComponent]
-    [Component] <:- [Decorator]
-    [Component] <:- [ConcreteComponent]
-  ]
-```
+#fill: #f0f8ff; # Background color
+#arrowSize: 1
+#arrowColor: #4682b4
+#fontSize: 16
+#stroke: #4682b4
+#strokeWidth: 2
+
+[Central Tower Complex] - [Sky Bridges]
+[Sky Bridges] - [Transportation Hub]
+[Urban Plaza] - [Entertainment District]
+[Entertainment District] - [Residential District]
+[Residential District] - [Green Spaces]
+[Research & Development Facilities] - [Advanced Infrastructure]
