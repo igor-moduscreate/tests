@@ -1,0 +1,116 @@
+= Exploring AsciiDoc
+
+== Introduction
+
+AsciiDoc is a lightweight markup language for creating documents. It offers a wide range of features for creating structured documents with simple syntax.
+
+=== Key Features
+
+==== Headings
+
+AsciiDoc supports multiple levels of headings:
+
+= Level 1 Heading
+
+== Level 2 Heading
+
+=== Level 3 Heading
+
+==== Level 4 Heading
+
+===== Level 5 Heading
+
+====== Level 6 Heading
+
+==== Paragraphs
+
+You can create paragraphs of text simply by typing:
+
+This is a paragraph of text.
+
+==== Lists
+
+AsciiDoc supports both bullet and numbered lists:
+
+* Bullet List Item 1
+* Bullet List Item 2
+** Sub-item 2.1
+*** Sub-sub-item 2.1.1
+* Bullet List Item 3
+
+1. Numbered List Item 1
+2. Numbered List Item 2
+3. Numbered List Item 3
+
+==== Code Blocks
+
+You can include code blocks with syntax highlighting:
+
+[source, java]
+----
+public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello, World!");
+    }
+}
+----
+
+==== Links
+
+You can create links to external websites or documents:
+
+Link to Google: https://www.google.com
+
+Link with custom text: link:https://www.google.com[Google]
+
+==== Images
+
+You can include images in your document:
+
+image::data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADgAAAA4CAMAAACfWMssAAAAYFBMVEUbGxv///8AAAAREREWFhYZGRkNDQ1gYGAHBwf5+fmoqKjY2Nje3t7FxcW1tbX8/Py7u7vs7Ozm5uaKiopDQ0OXl5dWVlZLS0s9PT1xcXF8fHwlJSUyMjLz8/NnZ2dsbGwJLVIWAAACHklEQVRIie1V2ZaDIAyFgIBal4pbXf//LwcI2nYG2p4zr82D9hguN8tNSsjXvvZvYyKJOxPGojgpBagwCkBIGUNCQ2muAQIe0DmlTcDjbk2oscuYwa+bGXSVdVESzkRI6+w6em2frob2StGkCAKVts6+MI/bAxJu9DAdLgB01rlc7HM6kTB5VNP1czhUD2wwKn+5kgjLW9BFjBFDRYaUcPuNJykGCbV7houz4xHkKNwhKJAfL93DxeELAnw1BtMUNrifN8ALFh4EElitFxIoD0o8X5pP9r1GBEAQ0EEiXL8J58S+K5Fg3coYEAOrCIfMtUQpV6gMOKmO4COUuas8sNa+a3ClNOeP7zHcUQuDsNleAKwYUo9/QWgoM+y2o1gBTBPTCflMxHGcQTrB0a1Aqqa4wYQSuLzEEc7cJEgEzkRmK0ruyiI9PNNkVqsjhnqOBW34iwQ9p+2mTY7my4kr4Q2ftQRk6dpRHoPYSHixxB5MoIR214Wq6CGs7UC0syOCrM70AEMd0/YfQ2kbGZhBydNjwj7Audmjo+HhrR/jj3ATvY8CZvuwgqKmvOpWLGSCM2r0Fl43zriwSfkd2vpKisErZzJOEawSHzdde4GZJXNG7tccTWu9jSGkj9H1rn9cyH11OoITcgfm81NCas4/AppsfgXEYbq+A6bFFqqfgq1IY0Am9b5ATJem4suuw3+tTIXLfUYs1Nuh/NrX3tkPpAQUxYzO1YoAAAAASUVORK5CYII=[Modus Create]
+
+==== Tables
+
+AsciiDoc supports creating tables:
+
+|===
+| Header 1 | Header 2
+| Cell A1  | Cell A2
+| Cell B1  | Cell B2
+|===
+
+==== Admonitions
+
+You can add admonitions to draw attention to important information:
+
+NOTE: This is a note.
+
+TIP: This is a tip.
+
+WARNING: This is a warning.
+
+CAUTION: This is a caution.
+
+INFO: This is info.
+
+==== Macros
+
+You can define custom macros for reusable content:
+
+[source, java]
+----
+ifndef::env-github[]
+This content will only be included when generating the document outside of GitHub.
+endif::[]
+
+==== Footnotes
+
+You can add footnotes to provide additional information:
+
+Here is some text.[^1]
+
+[^1] This is a footnote.
+
+== Conclusion
+
+AsciiDoc offers a powerful yet simple syntax for creating structured documents. With its wide range of features, it's a great choice for writing documentation, articles, and more.
